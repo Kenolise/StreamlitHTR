@@ -1,7 +1,7 @@
 <h1> Text Extraction</h1>
 Feel free to fork/clone!<br>
 
-In this project, we are trying to do 3 things <br>
+In this project, we are trying to do these; <br>
 1. Take a picture of a handwritten text, and upload it on the app
 2. Train the model using this tutorial: https://github.com/githubharald/SimpleHTR
 3. Process the image using the model already trained. We may need to apply Threasholding if necessary
