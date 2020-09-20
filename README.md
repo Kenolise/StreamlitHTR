@@ -1,4 +1,4 @@
-<h1> Text Extraction</h1>
+<h1> Text Recognition</h1>
 Feel free to fork/clone!<br>
 
 In this project, we are trying to do these; <br>
