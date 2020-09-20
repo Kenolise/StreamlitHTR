@@ -2,7 +2,7 @@
 Feel free to fork/clone!<br>
 
 In this project, we are trying to do these; <br>
-1. Take a picture of a handwritten text, and upload it on the app
+1. Take a picture of a handwritten text, and upload it on a streamlit app https://docs.streamlit.io
 2. Train the model using this tutorial: https://github.com/githubharald/SimpleHTR
 3. Process the image using the model already trained. We may need to apply Threasholding if necessary
 4. Extract text from Image, and save the text as .txt format
