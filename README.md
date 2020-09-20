@@ -1,18 +1,15 @@
-<h1>TEATH - Text Extraction And THresholding</h1>
-
-
-Try it out on your own<br>
+<h1> Text Extraction</h1>
 Feel free to fork/clone!<br>
-Follow these steps.
-1. Clone the repository `git clone https://github.com/Kenolise/StreamlitHTR.git`
-2. For Localhost:
-    1. `pip install -r requirements.txt`
-    2. Install tesseract executable from https://github.com/UB-Mannheim/tesseract/wiki, <br>keep an eye on installation path.
-    3. Open app.py, change tesseract_cmd path to installation path's executable file(eg. C:\Users\rohan\AppData\Local\Tesseract-OCR\tesseract.exe)
-    4. Run cmd in current folder and enter `streamlit run app.py`
-    5. App will be deployed at localhost:8501(mostly)
 
-3. For Heroku Deployment:
+In this project, we are trying to do 3 things <br>
+1. Take a picture of a handwritten text, and upload it on the app
+2. Train the model using this tutorial: https://github.com/githubharald/SimpleHTR
+3. Process the image using the model already trained. We may need to apply Threasholding if necessary
+4. Extract text from Image, and save the text as .txt format
+5. Smile at the Outcome😄
+
+
+ For Heroku Deployment:
     1. Create Heroku account and Install Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli#download-and-install
     2. Create APP from Heroku Dashboard.
     3. Go to your APP dashboard settings on heroku website and in the buildpacks URL,<br>enter `https://github.com/heroku/heroku-buildpack-apt`<br>
